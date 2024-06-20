@@ -6,11 +6,11 @@ BabyFoot Manager est une application web de type RIA permettant de créer des pa
 
 ### Capture d'écran de l'Interface
 
-![Interface](screenshot/capture.png)
+![Interface](screenshot/Capture.PNG)
 
 ### Capture d'écran de la Base de Données PostgreSQL
 
-![Base de Données](screenshot/capture2.png)
+![Base de Données](screenshot/capture2.PNG)
 
 ### Technologies Utilisées
 
@@ -37,7 +37,7 @@ BabyFoot Manager est une application web de type RIA permettant de créer des pa
    Clonez le dépôt sur votre machine locale :
 
    ```
-   git clone <repository-url>
+   git clone https://github.com/aroussiteyeb/test-technique/tree/main/backend
    cd backend
    ```
 
@@ -78,7 +78,7 @@ BabyFoot Manager est une application web de type RIA permettant de créer des pa
 1. **Clonage du dépôt**
    Clonez le dépôt sur votre machine locale :
    ```
-   git clone <repository-url>
+   git clone https://github.com/aroussiteyeb/test-technique/tree/main/FrontEnd
    ```
 2. **Naviguez jusqu'au répertoire frontend**
 
