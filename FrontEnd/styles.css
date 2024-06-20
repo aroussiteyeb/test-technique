@@ -1,0 +1,179 @@
+body {
+    font-family: Arial, sans-serif;
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #9cc8f7;
+    color: white;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Ajouter une ombre légère */
+    margin-bottom: 30px;
+
+}
+
+.header-logo img {
+    width: 50px; /* Taille du logo */
+    height: auto;
+}
+
+.header-title {
+    text-align: center; /* Centrer le texte */
+    flex-grow: 1; /* Permet au titre de prendre tout l'espace disponible */
+}
+
+.header-title h1 {
+    font-size: 24px; /* Taille du titre */
+    margin: 0;
+}
+
+footer {
+    background-color: #f4f7fa;
+    color: rgb(19, 18, 18);
+    padding: 10px 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2); /* Ajouter une ombre légère */
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 90%; /* Utiliser toute la largeur de l'écran */
+    height: 90%; /* Utiliser toute la hauteur de l'écran */
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+
+    
+}
+
+
+
+.left-panel {
+    width: 55%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+
+.header input[type="text"] {
+    width: 70%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.header button {
+    padding: 5px 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.header button:hover {
+    background-color: #0056b3;
+}
+
+.list {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.list-item:last-child {
+    border-bottom: none;
+}
+
+.list-item input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.list-item .delete {
+    color: red;
+    cursor: pointer;
+}
+
+.counter {
+    text-align: right;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.right-panel {
+    width: 40%;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.chat-header input[type="text"] {
+    width: 70%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.chat-box {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 10px;
+    flex-grow: 1;
+    overflow-y: auto;
+    margin-bottom: 10px;
+}
+
+.chat-input {
+    display: flex;
+}
+
+.chat-input input[type="text"] {
+    width: 85%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+.chat-input button {
+    padding: 5px 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.chat-input button:hover {
+    background-color: #0056b3;
+}

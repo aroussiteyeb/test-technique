@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Babyfoot Manager</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-logo">
+            <img src="https://img.over-blog-kiwi.com/1/99/03/75/20160228/ob_6aae2c_team-36.jpg" alt="Logo">
+        </div>
+        <div class="header-title">
+            <h1>Babyfoot Manager</h1>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="left-panel">
+            <div class="header">
+                <input type="text" id="partie-name" placeholder="Nouvelle partie ...">
+                <button onclick="createPartie()" class="button-create">Ajouter</button>
+            </div>
+            <div class="list" id="partie-list">
+                <!-- Dynamic Partie list will be populated here -->
+            </div>
+            <div class="counter" id="unfinished-count">Parties non terminés : 0</div>
+        </div>
+        <div class="right-panel">
+            <div class="chat-header">
+              <span>Tchat</span>
+              <input type="text" id="nickname" placeholder="Nickname ...">
+            </div>
+            <div class="chat-box" id="chat-messages">
+              <!-- Dynamic chat messages will be populated here -->
+            </div>
+            <div class="chat-input">
+              <input type="text" id="chat-input" placeholder="Votre message ...">
+              <button onclick="sendMessage()">Envoyer</button>
+            </div>
+          </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Babyfoot Manager. Tous droits réservés.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
