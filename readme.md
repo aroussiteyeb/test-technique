@@ -10,7 +10,7 @@ BabyFoot Manager est une application web de type RIA permettant de créer des pa
 
 ### Capture d'écran de la Base de Données PostgreSQL
 
-![Base de Données](screenshot/capture2.PNG)
+![Base de Données](screenshot/Capture2.PNG)
 
 ### Technologies Utilisées
 
